@@ -18,11 +18,11 @@ public class PeminjamanNella {
     private int lama;
     
     private double bunga;
-    private double angsuranpokok; //get saja karena tidak mengembalikan nilai
+    private double angsuranpokok;
     private double angsuranbulan;
     private double hutang;
     
-    private static int studentCount; //get saja karena tidak mengembalikan nilai
+    private static int studentCount;
     
     public String getKodepinjam(){
         return kodepinjam;
@@ -82,7 +82,7 @@ public class PeminjamanNella {
         return bunga;
     }
     
-    public double getAngsuranbulan(){
+    public double getAngsuranperbulan(){
         
         angsuranbulan=bunga+angsuranpokok;
         return angsuranbulan;
